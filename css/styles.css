@@ -1,0 +1,26 @@
+body {
+    background-color: #393053;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+}
+.card {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   text-align: center;
+   margin-top: 150px;
+}
+.text {
+    text-align: center;
+    font-family: 'Mynerve', cursive;
+}
+.player {
+    font-size: 20px;
+    font-family: 'Mynerve', cursive;
+}
