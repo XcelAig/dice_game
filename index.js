@@ -5,34 +5,34 @@ var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 function rollDieA() {
 
     if (randomNumber1 === 1) {
-        document.querySelector("img").setAttribute("src", "images/dice1.png");
+        document.querySelector("img").setAttribute("src", "Images/dice1.png");
     } else if (randomNumber1 === 2) {
-        document.querySelector("img").setAttribute("src", "images/dice2.png");
+        document.querySelector("img").setAttribute("src", "Images/dice2.png");
     } else if (randomNumber1 === 3) {
-        document.querySelector("img").setAttribute("src", "images/dice3.png");
+        document.querySelector("img").setAttribute("src", "Images/dice3.png");
     } else if (randomNumber1 === 4) {
-        document.querySelector("img").setAttribute("src", "images/dice4.png");
+        document.querySelector("img").setAttribute("src", "Images/dice4.png");
     } else if (randomNumber1 === 5) {
-        document.querySelector("img").setAttribute("src", "images/dice5.png");
+        document.querySelector("img").setAttribute("src", "Images/dice5.png");
     } else {
-        document.querySelector("img").setAttribute("src", "images/dice6.png");
+        document.querySelector("img").setAttribute("src", "Images/dice6.png");
     }
 }
 
 function rollDieB() {
 
     if (randomNumber2 === 1) {
-        document.getElementById("dice").setAttribute("src", "images/dice1.png");
+        document.getElementById("dice").setAttribute("src", "Images/dice1.png");
     } else if (randomNumber2 === 2) {
-        document.getElementById("dice").setAttribute("src", "images/dice2.png");
+        document.getElementById("dice").setAttribute("src", "Images/dice2.png");
     } else if (randomNumber2 === 3) {
-        document.getElementById("dice").setAttribute("src", "images/dice3.png");
+        document.getElementById("dice").setAttribute("src", "Images/dice3.png");
     } else if (randomNumber2 === 4) {
-        document.getElementById("dice").setAttribute("src", "images/dice4.png");
+        document.getElementById("dice").setAttribute("src", "Images/dice4.png");
     } else if (randomNumber2 === 5) {
-        document.getElementById("dice").setAttribute("src", "images/dice5.png");
+        document.getElementById("dice").setAttribute("src", "Images/dice5.png");
     } else {
-        document.getElementById("dice").setAttribute("src", "images/dice6.png");
+        document.getElementById("dice").setAttribute("src", "Images/dice6.png");
     }
 
 }
