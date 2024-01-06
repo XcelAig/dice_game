@@ -1,26 +1,39 @@
 body {
-    background-color: #393053;
-    color: white;
+  background-color: #393053;
+  color: white;
 }
 
 h1 {
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    font-size: 70px;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 70px;
 }
 .card {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 30px;
-   text-align: center;
-   margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  margin-top: 150px;
 }
+
+.card-con {
+  display: flex;
+  gap: 1.5rem;
+}
+
 .text {
-    text-align: center;
-    font-family: 'Mynerve', cursive;
+  text-align: center;
+  font-family: "Mynerve", cursive;
 }
 .player {
-    font-size: 20px;
-    font-family: 'Mynerve', cursive;
+  font-size: 20px;
+  font-family: "Mynerve", cursive;
+}
+
+button {
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
 }
